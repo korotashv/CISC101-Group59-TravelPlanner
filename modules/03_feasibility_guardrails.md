@@ -1,3 +1,5 @@
+Change Log (2025-11-14): 
+– Updated distance rule to be below 10 minutes or 1km to support ‘short walks only’ requests.
 
 ### **Module 3 — Feasibility & Guardrails**
 
@@ -14,6 +16,7 @@ Apply these **if/else** checks to make sure plans are realistic and adapt to edg
 3. **Too Far or Long Travel**
    
    - If transfer between activities > 25 min or > 5 km → pick a closer alternative or add a short transit hop.
+   - If user requests for transfer between activities to be short walks only → keep all walking segments < 10 minutes or < 1 km
 
 4. **Weather Swap**
    
